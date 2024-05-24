@@ -25,7 +25,7 @@ const Login = () => {
         router.push("/");
       })
       .catch((error) => {
-        if (error.code === "auth/uset-not-found") {
+        if (error.code === "auth/user-not-found") {
           alert("そのようなユーザーは存在しません");
         } else {
           alert(error.message);
