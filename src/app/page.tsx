@@ -1,7 +1,11 @@
+"use client";
 import Sidebar from "./components/Sidebar";
 import Chat from "./components/Chat";
+import { useAppContext } from "../context/AppContext";
 
 export default function Home() {
+  const { user } = useAppContext();
+
   return (
     <div className="flex h-screen justify-center">
       <div className="h-full flex" style={{ width: "1280px" }}>

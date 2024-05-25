@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { AppProvider } from "@/context/AppContext";
 
 export const metadata: Metadata = {
-  title: "CahtApplication-with-chatGPT",
+  title: "ChatApplication-with-chatGPT",
   description:
     "このアプリケーションは、リアルタイムでのチャット機能を提供し、ChatGPTを活用してユーザー間のコミュニケーションを強化します。",
 };
